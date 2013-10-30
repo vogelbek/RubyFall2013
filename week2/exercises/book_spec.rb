@@ -1,6 +1,7 @@
-require './book.rb'
+require './book'
 
 describe Book do
+<<<<<<< HEAD
 	before :each do
 		@book = Book.new("Harry Potter", 200)
 	end
